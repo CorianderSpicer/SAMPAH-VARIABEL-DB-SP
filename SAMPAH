@@ -1,0 +1,17 @@
+import random
+
+def sampah_organik():
+    nama_sampah = ["daun", "Buah Busuk", "Sayur Busuk"
+                   , "Limbah ternak", "tulang", "Kotoran hewam"
+                   , "teh", "kulit buah", "Cangkang telur"]
+    
+   return random.choice(nama_sampah)
+    
+
+def sampah_anorganik():
+    nama_sampah = ['daun', 'baterai', 'kaleng', 'karet'
+                   , 'kertas', 'besi', 'kresek', 'kotak',
+                   'sampah DVD']
+    
+    
+    return random.choice(nama_sampah)
